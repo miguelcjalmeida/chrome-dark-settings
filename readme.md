@@ -7,3 +7,7 @@
 - Enable 'developer mode' by clicking at the top right corner switch
 - Click on 'Load packed' and select the location where this plugin is at
 - Disable 'developer mode'
+
+### Preview 
+
+![Chrome flags page](https://github.com/miguelcjalmeida/chrome-dark-settings/blob/master/images/preview.png?raw=true)
