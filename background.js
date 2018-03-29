@@ -27,10 +27,11 @@ function runTabScript(){
 }
 
 function setupColors(){
+  let html = document.querySelector("html")
   let body = document.querySelector("body")
 
+  html.style.background = "#0e0e0e"
   body.style.filter = "invert(100%)"
-  body.style.background = "black"
 
   let containers = document.querySelectorAll("* /deep/ #container")
 
@@ -46,6 +47,7 @@ function setupColors(){
   for(var i=0; i<images.length; i++) {
     var image = images[i]
     image.style.filter = "invert(100%)"
+    image.style.opacity = "0.5"
   }
 
   document.onclick = function() {
