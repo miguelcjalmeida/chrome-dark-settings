@@ -15,13 +15,16 @@ chrome.runtime.onInstalled.addListener(function() {
 })
 
 chrome.tabs.onUpdated.addListener( function (tabId, changeInfo, tab) {
-  console.log(changeInfo.status)
-
+  runTabScript()
   if (changeInfo.status == 'complete' && tab.active) {
-    chrome.tabs.executeScript(
-      {code: "(" + setupColors.toString() + ")()"});
+    setTimeout(runTabScript, 1000)
   }
 })
+
+function runTabScript(){
+  chrome.tabs.executeScript(
+    {code: "(" + setupColors.toString() + ")()"});
+}
 
 function setupColors(){
   let body = document.querySelector("body")
