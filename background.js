@@ -27,6 +27,7 @@ function setupColors(){
   let body = document.querySelector("body")
 
   body.style.filter = "invert(100%)"
+  body.style.background = "black"
 
   let containers = document.querySelectorAll("* /deep/ #container")
 
