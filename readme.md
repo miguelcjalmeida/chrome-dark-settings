@@ -8,6 +8,8 @@
 - Click on 'Load packed' and select the location where this plugin is at
 - Disable 'developer mode'
 
-### Preview 
+### Version
+This extension is working on Google Chrome 65.0.3325.181
 
+### Preview 
 ![Chrome flags page](https://github.com/miguelcjalmeida/chrome-dark-settings/blob/master/images/preview.png?raw=true)
