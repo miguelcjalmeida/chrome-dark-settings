@@ -1,6 +1,7 @@
 {
   "name": "Dark Settings",
-  "version": "0.1.0.1",
+  "author": "Miguel Almeida",
+  "version": "0.1.0",
   "description": "Darken chrome settings page",
   "manifest_version": 2,
   "permissions": ["chrome://*/"],
