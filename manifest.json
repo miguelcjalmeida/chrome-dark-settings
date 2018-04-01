@@ -1,6 +1,6 @@
 {
   "name": "Dark Settings",
-  "version": "1.0",
+  "version": "0.1.0.1",
   "description": "Darken chrome settings page",
   "manifest_version": 2,
   "permissions": ["chrome://*/"],
